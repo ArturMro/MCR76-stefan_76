@@ -1,0 +1,73 @@
+
+
+<script>
+  // Simple string output:
+  console.log('Hello World');
+  console.log('1234567');
+  console.log('1 Abbey Street');
+  // Inverted commas (quotes) are always paired:
+  // this will not work => console.log('1 O'Connel Street')  
+  // We can use double quotes for O'Connel Street example
+  console.log("1 O'Connel Street");
+  // We can also use the escape character \ - this is the preferred method
+  console.log('1 O\'Connel Street');
+  // Sometimes we need to reply on escape characters, e.g.
+  console.log('Ms O\'Brien said: "Today is a fine day"');
+  console.log("Ms O'Brien said: \"Today is a fine day\"");
+  
+  // Single or double quotes for strings when coding in JavaScript?
+  // Double quotes are really so out of fashion for coding in general
+  // For web development, we use double quotes for HTML and 
+  // single quotes for JavaScript (as witnessed in 2019)
+  
+  // Strings and variables
+  // =====================
+  // use the var keyword to declare a variables
+  var myNewVariable;
+  // we can assign a value to the new variable
+  myNewVariable = 'Hello Monday';
+  console.log(myNewVariable);
+  // we can assign a new value to this variable to replace the original value
+  myNewVariable = 'Hello Tuesday';
+  console.log(myNewVariable);
+  // we declare a new variable and assign a value at the same time
+  var anotherNewVariable = 'Bye bye Tuesday';
+  
+  // Maths with strings (is this suppose to work? - No!)
+  var firstValue = '10';
+  var secondValue = '2';
+  var result = firstValue + secondValue;
+  console.log(result);
+  firstValue = 'Blood';
+  secondValue = 'Oranges';
+  result = firstValue + secondValue;
+  console.log(result);
+  result = firstValue + ' ' + secondValue;
+  console.log(result);
+  
+  // Example with prompt()
+  var dataName = prompt('Please enter your name');
+  result = 'The name entered was ' + dataName;
+  console.log(result);
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+</script>

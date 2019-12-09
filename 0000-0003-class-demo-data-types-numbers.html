@@ -1,0 +1,97 @@
+
+
+<script>
+  // Simple numbers output:
+  console.log(2019);
+  console.log(1234567);
+  
+  
+  // Maths with numbers (is this suppose to work? - Yes, of course!)
+  var firstValue = 10;
+  var secondValue = 2;
+  var result = firstValue + secondValue;
+  console.log(result);
+  result = firstValue - secondValue;
+  console.log(result);
+  result = firstValue * secondValue;
+  console.log(result);
+  result = firstValue / secondValue;
+  console.log(result);
+
+
+  // rounding errors ... ?
+  firstValue = 0.1;
+  secondValue = 0.2;
+  result = firstValue + secondValue;
+  console.log(result);
+  firstValue = 0.1 * 10;
+  secondValue = 0.2 * 10;
+  result = (firstValue + secondValue) / 10;
+  console.log(result);
+
+  
+  // Strings and numbers
+  firstValue = 10;
+  secondValue = '2';
+  result = firstValue + secondValue;
+  // result = 102 as a string because one of the values is a string.
+  console.log(result);
+  
+
+  firstValue = 10;
+  secondValue = 2;
+  result = 'The result of 10 + 2: ' + firstValue + secondValue;
+  // result = The result of 10 + 2: 102 as a string is concatenated at the beginning.
+  console.log(result);
+
+
+  firstValue = 10;
+  secondValue = 2;
+  result = firstValue + secondValue + ' this is the result of 10 + 2';
+  // result = 12 this is the result of 10 + 2 as a string is concatenated at the end.
+  console.log(result);
+
+
+  firstValue = 10;
+  secondValue = 'bikes';
+  result = firstValue / secondValue;
+  // result will be NaN (Not-a-Number) to indicate that result is not a legal number.
+  console.log(result);
+  
+  
+  // What type of data is my data?
+  console.log(typeof 'Hello World'); // => logs string
+  console.log(typeof 1234567); // => logs number
+  console.log(typeof (7 + 'seven')); // => logs string
+  console.log(typeof NaN); // => logs number
+
+
+
+  
+  // Example with prompt()
+  var dataName = prompt('Please enter anything, number or string or ?');
+  console.log(typeof dataName); // => logs string
+  result = 'The data entered was ' + dataName;
+  console.log(result);
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+</script>

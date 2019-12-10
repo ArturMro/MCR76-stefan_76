@@ -1,0 +1,53 @@
+<h3>Brief</h3>
+<p>Write out a set of instructions to ask a user to input
+   their name and hair colour. On successful data entry, the 
+   system will produce a 'one sentence' output in following format:
+</p>
+<p>"(name data) has (hair colour data) hair."<br>
+   e.g. Ben has black hair.</p>
+
+<h3>Data Items Required</h3>
+<ul>
+<li>Users Name</li>
+<li>Users Hair Colour</li>
+<li>Composed Sentence</li>
+</ul>
+
+<h3>Instruction Steps</h3>
+<ol>
+<li>Prompt user to enter user's name.</li>
+<li>Prompt user to enter user's hair colour.</li>
+<li>Compose sentence by concatenating data with predefined strings ('has' and 'hair.').</li>
+<li>Output composed sentence.</li>
+</ol>
+
+
+
+<script>
+
+// Users Name
+var usersName;
+
+//Users Hair Colour
+var usersHairCol;
+
+// Composed Sentence for Output
+var composedSentence;
+
+
+// Prompt user to enter user's name.
+usersName = prompt('Enter your name');
+
+// Prompt user to enter user's hair colour.
+usersHairCol = prompt('Enter your hai colour');
+
+// Compose sentence by concatenating data with predefined strings ('has' and 'hair.').
+composedSentence = usersName + ' has ' + usersHairCol + ' hair.';
+
+// Output composed sentence.
+console.log(composedSentence);
+
+
+
+
+</script>

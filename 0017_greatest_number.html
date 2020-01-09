@@ -1,0 +1,83 @@
+<!--
+
+2. exercise for 9th Jan 2020
+============================
+
+This morning we will practice:
+ a) conditional statements,
+ b) documenting program-flows, and
+ c) JS syntax.
+ 
+File:  0017-greatest-number.html
+Time:  60 minutes allowance
+Level: comfortable
+
+Create a script that will find the greatest number of three numbers. The script will
+prompt to enter three numbers and display each entered number in the console. 
+The script will compare the three numbers and display the largest number that was 
+entered.
+
+ 1. Create a flowchart in draw.io for above coding problem and upload your flowchart
+    as a single A4 page PDF. Ensure that the uploaded file name start with '0017-'.
+    
+ 2. Update this file and create a script element to include your own script for above
+    coding problem. 
+    
+ 3. Upload the completed files to your GitHub repository.
+    Ensure that all uploaded file names for this exercise start with '0017-'
+	
+-->
+
+
+<script>
+
+var allNum = [];
+
+var randomNum = prompt('Say a number');
+allNum.push(randomNum);
+console.log(randomNum);
+
+var randomNum = prompt('Say a number');
+allNum.push(randomNum);
+console.log(randomNum);
+
+var randomNum = prompt('Say a number');
+allNum.push(randomNum);
+console.log(randomNum);
+
+console.log(allNum);
+
+var biggestNum;
+
+
+
+if (allNum[0] > allNum[1] && allNum[0] > allNum[2]){
+  biggestNum = allNum[0];
+  }
+  
+if (allNum[1] > allNum[0] && allNum[1] > allNum[2]){
+  biggestNum = allNum[1];
+  }  
+  
+if (allNum[2] > allNum[0] && allNum[2] > allNum[1]){
+  biggestNum = allNum[2];
+  }  
+  
+
+  
+  
+  
+
+console.log(biggestNum);
+
+
+
+
+
+
+</script>
+
+
+
+
+
